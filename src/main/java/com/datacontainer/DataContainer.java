@@ -1,7 +1,7 @@
-package datacontainer;
+package main.java.com.datacontainer;
 
-import data.Pair;
-import dataprovider.DataProvider;
+import main.java.com.data.Pair;
+import main.java.com.dataprovider.DataProvider;
 
 import java.util.Collection;
 import java.util.function.Predicate;

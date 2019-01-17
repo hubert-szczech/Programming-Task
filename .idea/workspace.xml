@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a63bcf-7961-4b24-8f7e-171311dfa8e7" name="Default Changelist" comment="" />
+    <list default="true" id="d8a63bcf-7961-4b24-8f7e-171311dfa8e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/Data/Data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SimpleData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Data/TestData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programming Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programming Task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/data/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/data/SimpleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/datacontainer/DataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/datacontainer/SimpleDataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/dataprovider/DataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/dataprovider/SimpleDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/test/DataContainerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/data/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/SimpleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/data/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datacontainer/DataContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datacontainer/SimpleDataContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataprovider/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dataprovider/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataprovider/SimpleDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DataContainerTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,41 +38,41 @@
     <session id="-2131677836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="csv" value="2" />
+          <entry key="class" value="2" />
+          <entry key="csv" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="9" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="csv" value="74" />
-          <entry key="dummy" value="4" />
-          <entry key="java" value="5761" />
+          <entry key="csv" value="101" />
+          <entry key="dummy" value="14" />
+          <entry key="java" value="8687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5761" />
-          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="JAVA" value="8687" />
+          <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
     </session>
@@ -55,66 +80,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="1033">
+              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2460#2466#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/SimpleData.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-671">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datacontainer/DataContainer.java">
+        <entry file="jar://D:/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/util/function/Predicate.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datacontainer/SimpleDataContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1683#1684#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
-                <element signature="e#2969#2981#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/DataContainerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/SimpleData.java">
+        <entry file="file://$PROJECT_DIR$/resources/Data/Data.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -123,37 +119,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataprovider/DataProvider.java">
+        <entry file="file://$PROJECT_DIR$/resources/Data/TestData.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#3219#3225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dataprovider/SimpleDataProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/Pair.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="272">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,6 +200,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -189,9 +218,24 @@
         <option value="$PROJECT_DIR$/src/data/Pair.java" />
         <option value="$PROJECT_DIR$/src/data/SimpleData.java" />
         <option value="$PROJECT_DIR$/src/dataprovider/SimpleDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/Data/SimpleData.csv" />
         <option value="$PROJECT_DIR$/src/datacontainer/SimpleDataContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dataprovider/SimpleDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/data/SimpleData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/data/Pair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/datacontainer/SimpleDataContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/DataContainerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/data/Data.java" />
+        <option value="$PROJECT_DIR$/Data/Data.csv" />
+        <option value="$PROJECT_DIR$/Data/TestData.csv" />
+        <option value="$PROJECT_DIR$/resources/Data/Data.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java" />
       </list>
     </option>
   </component>
@@ -201,17 +245,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="812" />
-    <option name="y" value="211" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="770" />
+    <option name="y" value="180" />
     <option name="width" value="1001" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,42 +268,50 @@
             <path>
               <item name="Programming Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programming Task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programming Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datacontainer" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Programming Task" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547654606819" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547740872801" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Java\Desktop\WorkSpace\Programming Task\Data" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Java\Desktop\WorkSpace\Programming Task\resources" />
+      <recent name="C:\Users\Java\Desktop\WorkSpace\Programming Task\resources\test\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,20 +326,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.CsvDataContainerTest.filterFromTest">
+    <configuration name="CsvDataContainerTest.clearAllElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programming Task" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="clearAllElementsTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CsvDataContainerTest.filterFromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programming Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="filterFromTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvDataContainerTest.getElementsFromToTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programming Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="getElementsFromToTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvDataContainerTest.printAllElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programming Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="printAllElementsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvDataContainerTest.printFromToElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programming Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="printFromToElementsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTest" />
+      <item itemvalue="JUnit.CsvDataContainerTest.printAllElementsTest" />
+      <item itemvalue="JUnit.CsvDataContainerTest.clearAllElementsTest" />
+      <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTest" />
+      <item itemvalue="JUnit.CsvDataContainerTest.filterFromTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CsvDataContainerTest.filterFromTest" />
+        <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTest" />
+        <item itemvalue="JUnit.CsvDataContainerTest.clearAllElementsTest" />
+        <item itemvalue="JUnit.CsvDataContainerTest.printAllElementsTest" />
+        <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,17 +437,51 @@
       <workItem from="1547582122321" duration="5040000" />
       <workItem from="1547588728585" duration="2427000" />
       <workItem from="1547591278076" duration="296000" />
-      <workItem from="1547629735001" duration="17593000" />
+      <workItem from="1547629735001" duration="17594000" />
+      <workItem from="1547722494300" duration="13003000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CsvDataContainerTest_addingElementTest - 2019.01.17 at 17h 00m 38s.xml">
+      <configuration name="CsvDataContainerTest.addingElementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_updatingElementTest - 2019.01.17 at 17h 00m 40s.xml">
+      <configuration name="CsvDataContainerTest.updatingElementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_findingElementByIdTest - 2019.01.17 at 17h 00m 43s.xml">
+      <configuration name="CsvDataContainerTest.findingElementByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_removeElementByIdTest - 2019.01.17 at 17h 00m 46s.xml">
+      <configuration name="CsvDataContainerTest.removeElementByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_printFromToElementsTest - 2019.01.17 at 17h 00m 48s.xml">
+      <configuration name="CsvDataContainerTest.printFromToElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_printFromToElementsTest - 2019.01.17 at 17h 00m 56s.xml">
+      <configuration name="CsvDataContainerTest.printFromToElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_printAllElementsTest - 2019.01.17 at 17h 01m 01s.xml">
+      <configuration name="CsvDataContainerTest.printAllElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_clearAllElementsTest - 2019.01.17 at 17h 01m 08s.xml">
+      <configuration name="CsvDataContainerTest.clearAllElementsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_getElementsFromToTest - 2019.01.17 at 17h 01m 11s.xml">
+      <configuration name="CsvDataContainerTest.getElementsFromToTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvDataContainerTest_filterFromTest - 2019.01.17 at 17h 01m 14s.xml">
+      <configuration name="CsvDataContainerTest.filterFromTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25356000" />
+    <option name="totallyTimeSpent" value="38360000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="770" y="180" width="1001" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +490,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20476706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31764707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,12 +526,6 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataprovider/SimpleDataProvider.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -374,109 +537,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleData.java" />
+    <entry file="file://$PROJECT_DIR$/src/Pair.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Programming Task.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DataContainerTest.java">
+    <entry file="file://$PROJECT_DIR$/resources/Data/TestData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/SimpleData.java">
+    <entry file="jar://D:/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/util/function/Predicate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Data/Data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-671">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
           <folding>
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#2460#2466#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataprovider/DataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datacontainer/DataContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="261">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#3219#3225#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/SimpleData.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataprovider/SimpleDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="-96">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datacontainer/SimpleDataContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2969#2981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Programming Task</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

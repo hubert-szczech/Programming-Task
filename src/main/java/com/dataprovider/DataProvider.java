@@ -1,7 +1,7 @@
-package dataprovider;
+package main.java.com.dataprovider;
 
 
-import data.Pair;
+import main.java.com.data.Pair;
 import java.io.IOException;
 import java.util.Collection;
 

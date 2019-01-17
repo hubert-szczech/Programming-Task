@@ -1,10 +1,10 @@
-package data;
+package main.java.com.data;
 
 import java.util.Objects;
 
-public class Pair<U, K>  {
-    U id;
-    K data;
+public class Pair<U, K> {
+   private U id;
+   private K data;
 
     public Pair(U id, K data) {
         this.id = id;
@@ -34,7 +34,7 @@ public class Pair<U, K>  {
     public String toString() {
         return "Pair{" +
                 "id=" + id +
-                ", data=" + data +
+                ", main.java.com.data=" + data +
                 '}';
     }
 
