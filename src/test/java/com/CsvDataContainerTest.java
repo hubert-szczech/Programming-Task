@@ -2,15 +2,13 @@ package test.java.com;
 
         import main.java.com.data.Data;
         import main.java.com.data.Pair;
-        import main.java.com.datacontainer.CsvDataContainer;
+        import main.java.com.datacontainer.DataContainerImpl;
         import main.java.com.dataprovider.CsvDataProvider;
         import org.junit.Test;
-
         import java.io.UncheckedIOException;
         import java.util.ArrayList;
         import java.util.stream.Collectors;
 
-        import static java.lang.Integer.parseInt;
 
 public class CsvDataContainerTest {
 
@@ -18,7 +16,7 @@ public class CsvDataContainerTest {
 
     @Test
     public void dataLoadingTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         int numberOfElementsInTestData = csvDataProvider.count();
         csvDataContainer.load(csvDataProvider);
@@ -27,64 +25,79 @@ public class CsvDataContainerTest {
 
     @Test
     public void addingElementTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
+        int id = 10;
 
         Data data = new Data("Germany", "Berlin");
-        csvDataContainer.add(10, data);
-        assert (csvDataContainer.findById(10).equals(data));
+        csvDataContainer.add(id, data);
+        assert (csvDataContainer.findById(id).equals(data));
 
     }
 
-    @Test
+    @Test(expected = UncheckedIOException.class)
     public void addingExistingElementTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
+        int id = 1;
 
-        Data data = csvDataContainer.findById(1);
-        try {
-            csvDataContainer.add(1, data);
-            assert (false);
-        } catch (UncheckedIOException e) {
-            assert (true);
-        }
+        Data data = csvDataContainer.findById(id);
+        csvDataContainer.add(id, data);
+    }
+    @Test(expected = UncheckedIOException.class)
+    public void addingElementWithNegativeIdTest() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int id = -1;
+
+        Data data = csvDataContainer.findById(id);
+        csvDataContainer.add(id, data);
     }
 
     @Test
     public void updatingElementTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
+        int id = 1;
 
-        Data dataBeforeUpdate = csvDataContainer.findById(1);
+        Data dataBeforeUpdate = csvDataContainer.findById(id);
         Data data = new Data("Germany", "Berlin");
         assert (!data.equals(dataBeforeUpdate));
 
-        csvDataContainer.update(1, data);
-        Data dataAfterUpdate = csvDataContainer.findById(1);
+        csvDataContainer.update(id, data);
+        Data dataAfterUpdate = csvDataContainer.findById(id);
         assert (dataAfterUpdate == data);
     }
 
-    @Test
+    @Test(expected = UncheckedIOException.class)
     public void updatingInvalidElementTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
+        int id = 9;
 
         Data data = new Data("Germany", "Berlin");
-        try {
-            csvDataContainer.update(9, data);
-            assert (false);
-        } catch (UncheckedIOException e) {
-            assert (true);
-        }
+        csvDataContainer.update(id, data);
+    }
+
+    @Test(expected = UncheckedIOException.class)
+    public void updatingElementWithNegativeIdTest() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int id = -10;
+
+        Data data = new Data("Germany", "Berlin");
+        csvDataContainer.update(id, data);
     }
 
     @Test
     public void findingElementByIdTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int id = 1;
@@ -97,10 +110,21 @@ public class CsvDataContainerTest {
 
     @Test
     public void findingElementByInvalidIdTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int id = 100;
+
+        Data data = csvDataContainer.findById(id);
+        assert (data == null);
+    }
+
+    @Test
+    public void findingElementByNegativeIdTest() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int id = -10;
 
         Data data = csvDataContainer.findById(id);
         assert (data == null);
@@ -108,33 +132,36 @@ public class CsvDataContainerTest {
 
     @Test
     public void removeElementByIdTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int id = 2;
         csvDataContainer.remove(id);
         Data data = csvDataContainer.findById(id);
         assert (data == null);
-
     }
 
-    @Test
+    @Test(expected = UncheckedIOException.class)
     public void removeElementByInvalidIdTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int id = 100;
-        try {
-            csvDataContainer.remove(id);
-            assert (false);
-        } catch (UncheckedIOException e) {
-            assert (true);
-        }
+        csvDataContainer.remove(id);
+    }
+
+    @Test(expected = UncheckedIOException.class)
+    public void removeElementByNegativeIdTest() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int id = -100;
+        csvDataContainer.remove(id);
     }
 
     @Test
     public void printAllElementsTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         csvDataContainer.printAll();
@@ -143,7 +170,7 @@ public class CsvDataContainerTest {
 
     @Test
     public void printFromToElementsTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int from = 2;
@@ -153,7 +180,7 @@ public class CsvDataContainerTest {
 
     @Test
     public void printFromToElementsTestWithInvalidParameters() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int from = 100;
@@ -162,8 +189,18 @@ public class CsvDataContainerTest {
     }
 
     @Test
+    public void printFromToElementsTestWithNegativeAndPositiveParameters() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int from = -100;
+        int to = 2;
+        csvDataContainer.print(from, to);
+    }
+
+    @Test
     public void clearAllElementsTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         csvDataContainer.clear();
@@ -174,7 +211,7 @@ public class CsvDataContainerTest {
 
     @Test
     public void getElementsFromToTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int from = 2;
@@ -186,7 +223,7 @@ public class CsvDataContainerTest {
 
     @Test
     public void getElementsFromToTestWithToBigRange() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int from = 2;
@@ -198,20 +235,33 @@ public class CsvDataContainerTest {
 
     @Test
     public void getElementsFromToTestWithInvalidParameters() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         int from = 8;
         int to = 1;
-        Data data = new Data("Poland", "Warsaw");
+
         ArrayList<Data> listOfData = (ArrayList<Data>) csvDataContainer.get(from, to);
         listOfData.forEach(System.out::println);
         assert (listOfData.size() == 0);
     }
 
     @Test
+    public void getElementsFromToTestWithNegativeAndPositiveParameters() {
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
+        CsvDataProvider csvDataProvider = new CsvDataProvider(path);
+        csvDataContainer.load(csvDataProvider);
+        int from = -8;
+        int to = 8;
+
+        ArrayList<Data> listOfData = (ArrayList<Data>) csvDataContainer.get(from, to);
+        listOfData.forEach(System.out::println);
+        assert (listOfData.size() == 3);
+    }
+
+    @Test
     public void filterFromTest() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         ArrayList listOfData = (ArrayList) csvDataContainer.filter(data -> data.getCountry().equals("France"));

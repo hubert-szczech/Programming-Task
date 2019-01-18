@@ -1,7 +1,7 @@
 package test.java.com;
 
 import main.java.com.data.Data;
-import main.java.com.datacontainer.CsvDataContainer;
+import main.java.com.datacontainer.DataContainerImpl;
 import main.java.com.dataprovider.CsvDataProvider;
 import org.junit.Test;
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class ExampleOfUsage {
 
     @Test
     public void dataLoading() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         csvDataContainer.printAll();
@@ -20,7 +20,7 @@ public class ExampleOfUsage {
 
     @Test
     public void addingElement() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -34,7 +34,7 @@ public class ExampleOfUsage {
 
     @Test
     public void updatingElement() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -48,7 +48,7 @@ public class ExampleOfUsage {
 
     @Test
     public void findingElementById() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -59,7 +59,7 @@ public class ExampleOfUsage {
 
     @Test
     public void removeElementByIdInTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -73,7 +73,7 @@ public class ExampleOfUsage {
 
     @Test
     public void printAllElementsFromTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         csvDataContainer.printAll();
@@ -81,7 +81,7 @@ public class ExampleOfUsage {
 
     @Test
     public void printFromToElementsInTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
         csvDataContainer.print(2, 4);
@@ -89,7 +89,7 @@ public class ExampleOfUsage {
 
     @Test
     public void clearAllElementsFromTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -103,7 +103,7 @@ public class ExampleOfUsage {
 
     @Test
     public void getElementsFromToFromTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 
@@ -118,7 +118,7 @@ public class ExampleOfUsage {
 
     @Test
     public void filterFromTestData() {
-        CsvDataContainer csvDataContainer = new CsvDataContainer();
+        DataContainerImpl csvDataContainer = new DataContainerImpl();
         CsvDataProvider csvDataProvider = new CsvDataProvider(path);
         csvDataContainer.load(csvDataProvider);
 

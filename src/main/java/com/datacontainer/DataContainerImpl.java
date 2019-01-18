@@ -14,13 +14,13 @@ import java.util.function.Predicate;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-public class CsvDataContainer implements DataContainer<Integer, Data> {
+public class DataContainerImpl implements DataContainer<Integer, Data> {
 
     private final Logger log = (Logger) Logger.getLogger(String.valueOf(getClass()));
     private List<Pair<Integer, Data>> collection;
 
 
-    public CsvDataContainer() {
+    public DataContainerImpl() {
         this.collection = new ArrayList<>();
     }
 
@@ -31,11 +31,12 @@ public class CsvDataContainer implements DataContainer<Integer, Data> {
 
     @Override
     public void add(Integer integer, Data data) {
+
         Pair<Integer, Data> pair = new Pair<>(integer, data);
-        if (!collection.contains(pair)) {
+        if (!collection.contains(pair) && integer > 0) {
             collection.add(pair);
         } else {
-            log.info("add(): pair with id= '" + integer + "' already exist");
+            log.info("add(): pair with id= '" + integer + "' already exist or id is not positive number");
             throw new UncheckedIOException(new IOException());
         }
     }

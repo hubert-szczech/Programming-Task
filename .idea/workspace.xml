@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d8a63bcf-7961-4b24-8f7e-171311dfa8e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming Task/test/java/com/CsvDataContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming Task/test/java/com/CsvDataContainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +24,9 @@
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,73 +34,54 @@
           <entry key="class" value="2" />
           <entry key="csv" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="101" />
-          <entry key="dummy" value="14" />
-          <entry key="java" value="9171" />
+          <entry key="dummy" value="18" />
+          <entry key="java" value="9479" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9171" />
-          <entry key="PLAIN_TEXT" value="115" />
+          <entry key="JAVA" value="9479" />
+          <entry key="PLAIN_TEXT" value="119" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="222" column="1" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
+            <state relative-caret-position="412">
+              <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3242#3248#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-1390">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/util/function/Predicate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/Data/Data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -110,10 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-540">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +108,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/DataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-98">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#1116#1117#0" expanded="true" />
                 <element signature="e#1179#1180#0" expanded="true" />
@@ -137,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="-659">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="e#622#623#0" expanded="true" />
                 <element signature="e#654#655#0" expanded="true" />
@@ -150,12 +145,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-13">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -210,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainerImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java" />
       </list>
     </option>
@@ -220,9 +225,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="770" />
-    <option name="y" value="180" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="306" />
+    <option name="y" value="293" />
     <option name="width" value="1001" />
     <option name="height" value="728" />
   </component>
@@ -269,6 +274,13 @@
               <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dataprovider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programming Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programming Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +296,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547742432390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547805043821" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,23 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CsvDataContainerTest.getElementsFromToTestWithInvalidParameters">
-    <configuration name="CsvDataContainerTest.getElementsFromToTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programming Task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.com" />
-      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
-      <option name="METHOD_NAME" value="getElementsFromToTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CsvDataContainerTest.getElementsFromToTestWithNegativeAndPositiveParameters">
     <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programming Task" />
       <extension name="coverage">
@@ -347,7 +343,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvDataContainerTest.getElementsFromToTestWithToBigRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CsvDataContainerTest.getElementsFromToTestWithNegativeAndPositiveParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programming Task" />
       <extension name="coverage">
         <pattern>
@@ -357,13 +353,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.java.com" />
       <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
-      <option name="METHOD_NAME" value="getElementsFromToTestWithToBigRange" />
+      <option name="METHOD_NAME" value="getElementsFromToTestWithNegativeAndPositiveParameters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvDataContainerTest.printFromToElementsTestByInvalidParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programming Task" />
       <extension name="coverage">
         <pattern>
@@ -373,13 +369,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.java.com" />
       <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
-      <option name="METHOD_NAME" value="printFromToElementsTestByInvalidParameters" />
+      <option name="METHOD_NAME" value="getElementsFromToTestWithToNegativeNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvDataContainerTest.removeElementByInvalidIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CsvDataContainerTest.printFromToElementsTestWithInvalidParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programming Task" />
       <extension name="coverage">
         <pattern>
@@ -389,26 +385,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.java.com" />
       <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
-      <option name="METHOD_NAME" value="removeElementByInvalidIdTest" />
+      <option name="METHOD_NAME" value="printFromToElementsTestWithInvalidParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CsvDataContainerTest.printFromToElementsTestWithNegativeAndPositiveParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programming Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.CsvDataContainerTest" />
+      <option name="METHOD_NAME" value="printFromToElementsTestWithNegativeAndPositiveParameters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CsvDataContainerTest.removeElementByInvalidIdTest" />
-      <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestByInvalidParameters" />
+      <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestWithInvalidParameters" />
+      <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestWithNegativeAndPositiveParameters" />
+      <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" />
       <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" />
-      <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTest" />
-      <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithToBigRange" />
+      <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithNegativeAndPositiveParameters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithNegativeAndPositiveParameters" />
         <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" />
-        <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithToBigRange" />
-        <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTest" />
-        <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestByInvalidParameters" />
-        <item itemvalue="JUnit.CsvDataContainerTest.removeElementByInvalidIdTest" />
+        <item itemvalue="JUnit.CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" />
+        <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestWithNegativeAndPositiveParameters" />
+        <item itemvalue="JUnit.CsvDataContainerTest.printFromToElementsTestWithInvalidParameters" />
       </list>
     </recent_temporary>
   </component>
@@ -428,49 +440,51 @@
       <workItem from="1547629735001" duration="17594000" />
       <workItem from="1547722494300" duration="13003000" />
       <workItem from="1547741330299" duration="1117000" />
+      <workItem from="1547753556609" duration="1533000" />
+      <workItem from="1547803669744" duration="1272000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 24m 26s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_addingElementWithNegativeIdTest - 2019.01.18 at 10h 40m 36s.xml">
+      <configuration name="CsvDataContainerTest.addingElementWithNegativeIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTest - 2019.01.17 at 17h 24m 29s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTest" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_updatingElementWithNegativeIdTest - 2019.01.18 at 10h 44m 36s.xml">
+      <configuration name="CsvDataContainerTest.updatingElementWithNegativeIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 24m 47s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_findingElementByNegativeIdTest - 2019.01.18 at 10h 45m 17s.xml">
+      <configuration name="CsvDataContainerTest.findingElementByNegativeIdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 25m 05s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_printFromToElementsTestWithInvalidParameters - 2019.01.18 at 10h 46m 22s.xml">
+      <configuration name="CsvDataContainerTest.printFromToElementsTestWithInvalidParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 25m 31s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_printFromToElementsTestWithNegativeAndPositiveParameters - 2019.01.18 at 10h 46m 53s.xml">
+      <configuration name="CsvDataContainerTest.printFromToElementsTestWithNegativeAndPositiveParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 25m 44s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_printFromToElementsTestWithNegativeAndPositiveParameters - 2019.01.18 at 10h 47m 01s.xml">
+      <configuration name="CsvDataContainerTest.printFromToElementsTestWithNegativeAndPositiveParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 25m 54s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithToNegativeNumbers - 2019.01.18 at 10h 47m 33s.xml">
+      <configuration name="CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 26m 27s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithToNegativeNumbers - 2019.01.18 at 10h 47m 42s.xml">
+      <configuration name="CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithToBigRange - 2019.01.17 at 17h 26m 56s.xml">
-      <configuration name="CsvDataContainerTest.getElementsFromToTestWithToBigRange" configurationId="JUnit" />
+    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithToNegativeNumbers - 2019.01.18 at 10h 47m 47s.xml">
+      <configuration name="CsvDataContainerTest.getElementsFromToTestWithToNegativeNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.17 at 17h 27m 14s.xml">
+    <history-entry file="CsvDataContainerTest_getElementsFromToTestWithInvalidParameters - 2019.01.18 at 10h 48m 36s.xml">
       <configuration name="CsvDataContainerTest.getElementsFromToTestWithInvalidParameters" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39477000" />
+    <option name="totallyTimeSpent" value="42282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31744313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31744313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,21 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleData.java" />
     <entry file="file://$PROJECT_DIR$/src/Pair.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/DataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/util/function/Predicate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -564,10 +564,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Programming Task.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1390">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataprovider/CsvDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="-659">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="e#622#623#0" expanded="true" />
             <element signature="e#654#655#0" expanded="true" />
@@ -575,9 +595,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="-13">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#364#365#0" expanded="true" />
@@ -586,13 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programming Task.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/data/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-98">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#1116#1117#0" expanded="true" />
             <element signature="e#1179#1180#0" expanded="true" />
@@ -600,10 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/CsvDataContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datacontainer/DataContainerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-540">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -612,19 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/CsvDataContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="222" column="1" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3242#3248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ExampleOfUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="412">
+          <caret line="254" column="18" selection-start-line="254" selection-start-column="18" selection-end-line="254" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
